@@ -3,6 +3,9 @@ l = ["Anne", "Rolf", "Kevin"]
 
 # tuple -> it can not be modify - add or remove
 t = ("Anne", "Rolf", "Kevin")
+# a tuple with single value must contain comma after first element
+single_tuple = (1,)
+print(single_tuple)
 
 # set -> can not have duplicated elements and order is not garanteed
 s = {"Anne", "Rolf", "Kevin"}
