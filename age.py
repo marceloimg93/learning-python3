@@ -1,10 +1,9 @@
 print("Hello, world!")
 
 name = input("Enter your name: ")
-age = input("Enter your age: ")
-age_as_number = int(age)
-months = age_as_number * 12
-days = age_as_number * 365
+age = int(input("Enter your age: "))
+months = age * 12
+days = age * 365
 hours = days * 24
 seconds = hours * 60 * 60
 
