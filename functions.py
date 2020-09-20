@@ -1,4 +1,4 @@
-def say_hello(name, surname):
+def say_hello(name, surname='Bacon'):
     print(f'Hello {surname}, {name}!')
 
 
